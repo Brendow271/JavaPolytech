@@ -1,13 +1,13 @@
 class Stack
 {
-    private int Arra;
+    private int[] arr;
     private int top;
-    private int size;
+    private int sizeStack;
 
     public Stack(int size)
     {
         arr = new int[size];
-        size = size;
+        sizeStack = size;
         top = -1;
     }
 
@@ -56,7 +56,7 @@ class Stack
     }
 
     public boolean isFull() {
-        return top == size - 1;
+        return top == sizeStack - 1;
     }
 }
 
@@ -78,6 +78,15 @@ class Main
         System.out.println("The stack size is " + stack.size());
 
         stack.pop();
+
+        if (stack.isEmpty()) {
+            System.out.println("The stack is empty");
+        }
+        else {
+            System.out.println("The stack is not empty");
+        }
+
+        stack.push(4);
 
         if (stack.isEmpty()) {
             System.out.println("The stack is empty");

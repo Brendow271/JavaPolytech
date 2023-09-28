@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7e543354-da46-4c2f-9d1b-0f2510ff61e4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab1/String/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab1/String/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab1/String/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab1/String/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab1/String/String.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab1/String/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab1/Условия задач.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab2/Lab2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab2/Lab2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab2/Lab2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab2/Lab2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab2/Lab2/Lab2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02/ShkuropatPavel5030102 10201 lab2/Lab2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/JavaPolytech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/JavaPolytech.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ShkuropatPavel5030102 10201 lab5/ReaderWriter/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ShkuropatPavel5030102 10201 lab5/ReaderWriter/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/03/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +30,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/!Study/3/5/Java/JavaPolytech",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -47,6 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695894457870</updated>
       <workItem from="1695894458874" duration="17000" />
+      <workItem from="1695911904713" duration="710000" />
     </task>
     <servers />
   </component>
