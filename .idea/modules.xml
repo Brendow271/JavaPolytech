@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java/03/03.iml" filepath="$PROJECT_DIR$/Java/03/03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaPolytech.iml" filepath="$PROJECT_DIR$/.idea/JavaPolytech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/02/ShkuropatPavel5030102 10201 lab1/ShkuropatPavel5030102 10201 lab1.iml" filepath="$PROJECT_DIR$/Java/02/ShkuropatPavel5030102 10201 lab1/ShkuropatPavel5030102 10201 lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/02/ShkuropatPavel5030102 10201 lab2/ShkuropatPavel5030102 10201 lab2.iml" filepath="$PROJECT_DIR$/Java/02/ShkuropatPavel5030102 10201 lab2/ShkuropatPavel5030102 10201 lab2.iml" />
+    </modules>
+  </component>
+</project>
