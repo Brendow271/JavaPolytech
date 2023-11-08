@@ -1,10 +1,12 @@
 public class Student {
- // Статик методы не выводятся
     private static String name;
     private  int group;
 
     private int numOfCurse;
 
+    public Student(){
+
+    }
     public Student(String valname, int valgroup, int valnum){
         this.group = valgroup;
         name = valname;
@@ -13,7 +15,7 @@ public class Student {
 
     private Student(String valname){
         this.group = 0;
-        name = valname;
+        this.name = valname;
         this.numOfCurse = 0;
     }
 
@@ -33,11 +35,11 @@ public class Student {
         this.group = group;
     }
 
-    private static final void HandUp(){
+    private static void HandUp(){
         System.out.println("I want to answer!");
     }
 
-    public void AnsExam(String ans){
+    private static void AnsExam(String ans){
         System.out.println("Student " + name + ": " + ans);
     }
 
