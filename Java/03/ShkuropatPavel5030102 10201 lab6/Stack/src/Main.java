@@ -1,98 +1,69 @@
-class Stack
-{
-    private int[] arr;
-    private int top;
-    private int sizeStack;
+import java.util.Arrays;
+class Stack<T> {
+    private T[] data;
+    private int size = 0;
 
-    public Stack(int size)
-    {
-        arr = new int[size];
-        sizeStack = size;
-        top = -1;
-    }
+    public Stack () {
+        this(16);
+    };
+    public Stack (int capacity) {
+        data = (T[]) new Object[capacity];
+    };
 
-    public void push(int x)
-    {
-        if (isFull())
-        {
-            System.out.println("Overflow\nProgram Terminated\n");
-            System.exit(-1);
+    public T peek() {
+        return data[(size - 1)];
+    };
+
+    public T pop() {
+        if (size == 0) {
+            return null;
         }
-
-        System.out.println("Inserting " + x);
-        arr[++top] = x;
+        size--;
+        T savedData = data[size];
+        data[size] = null;
+        return savedData;
     }
 
-    public int pop()
-    {
-        if (isEmpty())
-        {
-            System.out.println("Underflow\nProgram Terminated");
-            System.exit(-1);
+    public void push(T newElement) {
+        if (size == data.length) {
+            data = Arrays.copyOf(data, 2 * data.length);
         }
-
-        System.out.println("Removing " + peek());
-        return arr[top--];
-    }
-
-    public int peek()
-    {
-        if (!isEmpty()) {
-            return arr[top];
-        }
-        else {
-            System.exit(-1);
-        }
-
-        return -1;
-    }
-
-    public int size() {
-        return top + 1;
-    }
+        data[size] = newElement;
+        size++;
+    };
 
     public boolean isEmpty() {
-        return top == -1;
-    }
+        return size == 0;
+    };
 
-    public boolean isFull() {
-        return top == sizeStack - 1;
-    }
-}
+    public int getSize() {
+        return size;
+    };
+};
 
 class Main
 {
     public static void main (String[] args)
     {
-        Stack stack = new Stack(3);
+        Stack myStack = new Stack<Integer>(3);
 
-        stack.push(1);
-        stack.push(2);
+        myStack.push(1);
+        myStack.push(2);
 
-        stack.pop();
-        stack.pop();
+        System.out.println("The stack size is " + myStack.getSize());
+        myStack.pop();
 
-        stack.push(3);
+        System.out.println("The top element is " + myStack.peek());
+        myStack.pop();
+        myStack.push(3);
 
-        System.out.println("The top element is " + stack.peek());
-        System.out.println("The stack size is " + stack.size());
+        System.out.println("The top element is " + myStack.peek());
+        System.out.println("The stack size is " + myStack.getSize());
+        myStack.pop();
 
-        stack.pop();
+        System.out.println(myStack.isEmpty()?"The stack is empty":"The stack is not empty");
+        myStack.push(4);
 
-        if (stack.isEmpty()) {
-            System.out.println("The stack is empty");
-        }
-        else {
-            System.out.println("The stack is not empty");
-        }
-
-        stack.push(4);
-
-        if (stack.isEmpty()) {
-            System.out.println("The stack is empty");
-        }
-        else {
-            System.out.println("The stack is not empty");
-        }
+        System.out.println(myStack.isEmpty()?"The stack is empty":"The stack is not empty");
     }
 }
